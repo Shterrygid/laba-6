@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table Generator</title>
+</head>
+<body>
+<form action="TableServlet" method="get">
+    <label for="title">Title:</label>
+    <input type="text" name="title" required><br>
+
+    <label for="rows">Number of Rows:</label>
+    <input type="number" name="rows" required><br>
+
+    <label for="cols">Number of Columns:</label>
+    <input type="number" name="cols" required><br>
+
+    <label for="bgColor">Background Color:</label>
+    <input type="color" name="bgColor" required><br>
+
+    <input type="submit" value="Generate Table">
+</form>
+</body>
+</html>
